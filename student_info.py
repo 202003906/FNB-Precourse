@@ -1,0 +1,16 @@
+first_name = input("Enter your first name: ")
+surname = input("Enter your surname: ")
+age = int(input("Enter your age: "))
+favourite_number = float(input("Enter your favourite number: "))
+full_name = first_name + " " + surname
+print(f"Welcome, {full_name}!")
+print(f"Uppercase name: {full_name.upper()}")
+print(f"Title case name: {full_name.title()}")
+age_in_months = age * 12
+print(f"Age in months: {age_in_months}")
+rounded_favourite_number = round(favourite_number, 2)
+print(f"Your favourite number rounded to 2 decimal places: {rounded_favourite_number}")
+print(f"Data type of first_name: {type(first_name)}")
+print(f"Data type of surname: {type(surname)}")
+print(f"Data type of age: {type(age)}")
+print(f"Data type of favourite_number: {type(favourite_number)}")
